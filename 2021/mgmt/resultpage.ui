@@ -1,0 +1,168 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>ResultPage</class>
+ <widget class="QWidget" name="ResultPage">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>702</width>
+    <height>425</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Form</string>
+  </property>
+  <layout class="QVBoxLayout" name="verticalLayout">
+   <item>
+    <widget class="QTabWidget" name="tabWidget">
+     <property name="currentIndex">
+      <number>0</number>
+     </property>
+     <widget class="QWidget" name="tab">
+      <attribute name="title">
+       <string>车位信息表</string>
+      </attribute>
+      <layout class="QVBoxLayout" name="verticalLayout_2">
+       <item>
+        <layout class="QHBoxLayout" name="horizontalLayout">
+         <item>
+          <widget class="QLabel" name="label_parking">
+           <property name="sizePolicy">
+            <sizepolicy hsizetype="Expanding" vsizetype="Preferred">
+             <horstretch>0</horstretch>
+             <verstretch>0</verstretch>
+            </sizepolicy>
+           </property>
+           <property name="text">
+            <string>车位信息:</string>
+           </property>
+          </widget>
+         </item>
+         <item>
+          <widget class="QPushButton" name="btn_parking">
+           <property name="text">
+            <string>刷新</string>
+           </property>
+          </widget>
+         </item>
+        </layout>
+       </item>
+       <item>
+        <widget class="QTableWidget" name="table_parking">
+         <column>
+          <property name="text">
+           <string>车位类型</string>
+          </property>
+         </column>
+         <column>
+          <property name="text">
+           <string>车位号</string>
+          </property>
+         </column>
+         <column>
+          <property name="text">
+           <string>母子车位</string>
+          </property>
+         </column>
+         <column>
+          <property name="text">
+           <string>车位状态</string>
+          </property>
+         </column>
+         <column>
+          <property name="text">
+           <string>业主号</string>
+          </property>
+         </column>
+         <column>
+          <property name="text">
+           <string>业主房号</string>
+          </property>
+         </column>
+         <column>
+          <property name="text">
+           <string>业主名</string>
+          </property>
+         </column>
+        </widget>
+       </item>
+      </layout>
+     </widget>
+     <widget class="QWidget" name="tab_2">
+      <attribute name="title">
+       <string>业主信息表</string>
+      </attribute>
+      <layout class="QVBoxLayout" name="verticalLayout_3">
+       <item>
+        <layout class="QHBoxLayout" name="horizontalLayout_2">
+         <item>
+          <widget class="QLabel" name="label_owner">
+           <property name="sizePolicy">
+            <sizepolicy hsizetype="Expanding" vsizetype="Preferred">
+             <horstretch>0</horstretch>
+             <verstretch>0</verstretch>
+            </sizepolicy>
+           </property>
+           <property name="text">
+            <string>业主信息：</string>
+           </property>
+          </widget>
+         </item>
+         <item>
+          <widget class="QPushButton" name="btn_owner">
+           <property name="text">
+            <string>刷新</string>
+           </property>
+          </widget>
+         </item>
+        </layout>
+       </item>
+       <item>
+        <widget class="QTableWidget" name="table_owner">
+         <column>
+          <property name="text">
+           <string>业主号</string>
+          </property>
+         </column>
+         <column>
+          <property name="text">
+           <string>业主房号</string>
+          </property>
+         </column>
+         <column>
+          <property name="text">
+           <string>业主名</string>
+          </property>
+         </column>
+         <column>
+          <property name="text">
+           <string>车牌号</string>
+          </property>
+         </column>
+         <column>
+          <property name="text">
+           <string>车牌号2</string>
+          </property>
+         </column>
+         <column>
+          <property name="text">
+           <string>摇号状态</string>
+          </property>
+         </column>
+         <column>
+          <property name="text">
+           <string>摇号结果</string>
+          </property>
+         </column>
+        </widget>
+       </item>
+      </layout>
+     </widget>
+    </widget>
+   </item>
+  </layout>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
